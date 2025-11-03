@@ -820,7 +820,7 @@ contract TokenVestingLock is Ownable {
     // ========== CONTRACT VARIABLES ===============
     
     // Token contract address
-    address public constant tokenAddress = 0xD6Ce04F8a4A16aad0c6A835b57644552dd4d469E;
+    address public constant tokenAddress = 0x775699DD8746d8bD7E4DE7F17988c68bfCf5e6Bf;
     
     // Vesting time for the tokens
     uint public lockDuration = 30 minutes;
