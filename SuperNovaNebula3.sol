@@ -696,7 +696,7 @@ abstract contract Ownable is Context {
     }
 }
 
-contract SuperNoveNebula3 is ERC20("SuperNove Nebula3", "SN3"), Ownable {
+contract SuperNovaNebula3 is ERC20("SuperNova Nebula3", "SN3"), Ownable {
     uint256 public immutable  MAX_SUPPLY;
 
     constructor(uint256 MAX_SUPPLY_TOKEN) Ownable(msg.sender) {
